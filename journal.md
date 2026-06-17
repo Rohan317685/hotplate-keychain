@@ -13,3 +13,15 @@ I learnt a lot about mosfets; their pretty much just big transistors and I also 
 So this will just be a very silly keychain hopefully around 90x60mm cause that's plenty to be honest and it will be very portable ofc, I will try to make a cute case for this but no promises since I have a deadline of 1 day for this!
 
 I just realised 5v probably wont be enough for this, I need a usb pd chip and decoupling capacitors which I forgot about bru I will add them after this journal and I've spent 3 hours sofar!
+
+## Finished schematic! (3.1 hours)
+
+I finally finished my schematic I added the deocupling capacitors and a 5v voltage regulator for the sk6812 Mini-E and the Xiao supply!
+
+Also added a Usb pd chip so now this support USB PD upto 20v supply and this should be plenty to work with, finiding the usb pd chip took a awfully long time because I had no clue what I was looking for or what USB PD is to be honest eventually landed on this since it seemed to be the best value for it's money and it's stable. I had a look through it's [Download Datasheet](https://www.laskakit.cz/user/related_files/ch224ds1.pdf) aswell! 
+
+I had to remove some resistors for the USB C port and make some minor adjustments across the schematic aswell here's a picture of my progress sofar:
+
+![Image of schematic](https://cdn.hackclub.com/019ed6a5-b205-7c94-bfce-49a22177f105/2026-06-17-182653_1920x1080_scrot.png) 
+
+Today I learnt I suck at figuring out voltage rails 🥀
