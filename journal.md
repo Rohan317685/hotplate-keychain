@@ -26,7 +26,7 @@ I had to remove some resistors for the USB C port and make some minor adjustment
 
 Today I learnt I suck at figuring out voltage rails 🥀
 
-## Almost finished PCB (4.2 hours)
+## Almost finished PCB (3.2 hours)
 
 This took me a while, I had done some research beforehand but not very deep research. I had to pick the footprint's and the fuse holder case which took around ~30 minutes since I wanted to make it compact but hand solderable. 
 
