@@ -25,3 +25,23 @@ I had to remove some resistors for the USB C port and make some minor adjustment
 ![Image of schematic](https://cdn.hackclub.com/019ed6a5-b205-7c94-bfce-49a22177f105/2026-06-17-182653_1920x1080_scrot.png) 
 
 Today I learnt I suck at figuring out voltage rails 🥀
+
+## Almost finished PCB (4.2 hours)
+
+This took me a while, I had done some research beforehand but not very deep research. I had to pick the footprint's and the fuse holder case which took around ~30 minutes since I wanted to make it compact but hand solderable. 
+
+I then had multiple serpentine heater iterations, in zig zags and other ways I had to space it out 0.5-1mm and use 0.25 mm routing for a overall trace route of around 4-5 meters which I did; I hit 4.65 meters after around 4 iterations and I tried out the kicad array feature but it sucked so I manually copy pasted.
+
+
+I also had to use a resistivity formul; it used Length, trace width, copper thickness and after some math's I approximated that it should release 44W of energy which is pretty good for a hotplate that's this small! 
+
+The decoupling capacitors are appropriately placed it took a bit to figure out how close it should be to the components and debugging the DRC error's took way to long I had so many thermal relief error's and I didn't know what they were and I eventually figured out I had to set the pad's to solid in properties and had to fix a lot of clearance issues with the routing itself.
+
+I need to do some PCB art and make the case for this ofc, it's just going to be a simple stand-off case!
+
+here's a couple images: 
+
+![Image of PCB](https://cdn.hackclub.com/019ed859-cb20-71a0-adaa-6f9d9d79064d/2026-06-18-022047_1920x1080_scrot.png) 
+![Image of 3d PCB](https://cdn.hackclub.com/019ed85a-4718-71f1-98ca-e09d18f30e80/Pendant.png) 
+
+
